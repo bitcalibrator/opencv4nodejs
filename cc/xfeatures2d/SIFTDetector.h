@@ -56,13 +56,13 @@ public:
 				);
 			};
 
-			modifySelf = [=](SIFTDetector* self) {
+			/*modifySelf = [=](SIFTDetector* self) {
 				self->nFeatures = nFeatures->ref();
 				self->nOctaveLayers = nOctaveLayers->ref();
 				self->contrastThreshold = contrastThreshold->ref();
 				self->edgeThreshold = edgeThreshold->ref();
 				self->sigma = sigma->ref();
-			};
+			};*/
 		};
 	};
 };
